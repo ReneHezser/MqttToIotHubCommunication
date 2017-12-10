@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<RH.MqttToIotHub.Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Mqtt>
+    <HostName>192.168.0.0</HostName>
+    <SubscribedTopics>smarthome/#</SubscribedTopics>
+  </Mqtt>
+  <IotHub>
+    <ConnectionString>HostName=<iothub_host_name>;DeviceId=<device_id>;SharedAccessKey=<device_key></ConnectionString>
+    <DeviceId>SmartHome</DeviceId>
+  </IotHub>
+</RH.MqttToIotHub.Settings>
